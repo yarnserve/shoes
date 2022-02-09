@@ -182,3 +182,88 @@ body {
   height: 7px;
   width: 306px;
 }
+
+/* join */
+.join {
+  margin-top: 25px;
+  margin-bottom: 110px;
+}
+
+.join_info {
+  display: flex;
+  flex-direction: column;
+  width: 257px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.join_info h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: -3px;
+  line-height: 1;
+}
+.join_info p {
+  font-size: 18px;
+  margin: 14px 0 26px;
+}
+.join_info .btn {
+  width: 256px;
+  height: 64px;
+  background-color: #fff;
+  font-size: 18px;
+  border: 1px solid #111;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* footer */
+.footer {
+  background-color: #111;
+  padding-top: 66px;
+  padding-bottom: 10px;
+  color: #fff;
+}
+
+.footer__menu {
+  display: flex;
+}
+
+.bottom__menu {
+  margin-right: auto;
+  display: flex;
+}
+
+.bottom__menu > li {
+  width: 214px;
+}
+
+.bottom__menu > li > a {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.25);
+  padding: 10px 0;
+  display: inline-block;
+}
+
+.bottom__menu ul a {
+  font-size: 14px;
+  display: block;
+  padding: 6px 0;
+}
+
+.social h4 {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.25);
+  padding: 10px 0;
+  display: inline-block;
+}
+
+.social .icons {
+}
+
+.copyright {
+  margin-top: 120px;
+}
