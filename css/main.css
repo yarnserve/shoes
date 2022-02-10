@@ -437,9 +437,18 @@ body {
     margin-right: initial;
     display: flex;
     flex-wrap: wrap;
+    gap: 50px;
   }
 
   .bottom__menu > li {
-    width: 50%;
+    width: 40%;
+  }
+
+  .copyright {
+    margin-top: 50px;
+  }
+
+  .social {
+    margin-top: 60px;
   }
 }
